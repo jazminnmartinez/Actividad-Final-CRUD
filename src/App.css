@@ -1,0 +1,216 @@
+
+/*.contenedor {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 20px;
+}
+
+.titulo {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.mensaje {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #dff0d8;
+  color: #3c763d;
+  border-radius: 5px;
+  border: 1px solid #d6e9c6;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.input {
+  flex: 1 1 200px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.boton {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  background-color: #1c5980;
+}
+
+.botonCancelar {
+  background-color: #7f8c8d;
+  margin-left: 10px;
+}
+
+.botonCancelar:hover {
+  background-color: #5a6266;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.celdaEncabezado {
+  border-bottom: 2px solid #2980b9;
+  padding: 12px;
+  text-align: left;
+  background-color: #ecf0f1;
+  color: #34495e;
+}
+
+.celda {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
+
+.botonAccion {
+  padding: 5px 10px;
+  margin-right: 8px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.botonAccion:hover {
+  background-color: #217dbb;
+}
+
+.botonEliminar {
+  background-color: #e74c3c;
+}
+
+.botonEliminar:hover {
+  background-color: #c0392b;
+}
+*/
+.contenedor {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.titulo {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.mensaje {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #dff0d8;
+  color: #3c763d;
+  border-radius: 5px;
+  border: 1px solid #d6e9c6;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.input {
+  flex: 1 1 200px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.boton {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  flex-grow: 0;
+  align-self: center;
+}
+
+.boton:hover {
+  background-color: #1c5980;
+}
+
+.botonCancelar {
+  background-color: #7f8c8d;
+  margin-left: 10px;
+}
+
+.botonCancelar:hover {
+  background-color: #5a6266;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.celdaEncabezado {
+  border-bottom: 2px solid #2980b9;
+  padding: 12px;
+  text-align: left;
+  background-color: #ecf0f1;
+  color: #34495e;
+}
+
+.celda {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
+
+.botonAccion {
+  padding: 5px 10px;
+  margin-right: 8px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.botonAccion:hover {
+  background-color: #217dbb;
+}
+
+.botonEliminar {
+  background-color: #e74c3c;
+}
+
+.botonEliminar:hover {
+  background-color: #c0392b;
+}
+
